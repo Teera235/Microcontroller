@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL6JT_824YB"
-#define BLYNK_TEMPLATE_NAME "Home Teerathxp IOT"
-#define BLYNK_AUTH_TOKEN "zMuKCgaGiNEVkZXVkdnPaZRRZ93Ugef2"
+#define BLYNK_TEMPLATE_ID "xxxxxxxxxxxxxxxx"
+#define BLYNK_TEMPLATE_NAME "xxxxxxxxxxxx"
+#define BLYNK_AUTH_TOKEN "xxxxxxxxxxx"
 
 #include <BlynkSimpleEsp32.h>
 #include <WiFi.h>
@@ -9,10 +9,10 @@
 #include <TridentTD_LineNotify.h>
 #include <HTTPClient.h>
 
-char ssid[] = "true_wifi";
-char pass[] = "0641248260";
+char ssid[] = "xxxxxxxxxxx";
+char pass[] = "xxxxxxxxxxxxx";
 
-char LINE_TOKEN[] = "0ihhSCAqZG6ustfmthpwNWgE02i34oP9oz20cePUNRj";
+char LINE_TOKEN[] = "xxxxxxxxxxxxxxxxxxx";
 
 #if !defined(PZEM_RX_PIN) && !defined(PZEM_TX_PIN)
 #define PZEM_RX_PIN 16
